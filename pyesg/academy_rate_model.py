@@ -12,8 +12,8 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
-from pyesg.processes.academy_rate_process import AcademyRateProcess
-from pyesg.utils import Array, RandomState
+from processes.academy_rate_process import AcademyRateProcess
+from utils import Array, RandomState
 
 # pylint: disable=too-many-arguments
 

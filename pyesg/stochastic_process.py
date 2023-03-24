@@ -5,7 +5,7 @@ import numpy as np
 from scipy import stats
 from scipy.stats._distn_infrastructure import rv_continuous
 
-from pyesg.utils import check_random_state, to_array, Array, RandomState
+from utils import check_random_state, to_array, Array, RandomState
 
 
 class StochasticProcess(ABC):
